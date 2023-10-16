@@ -22,7 +22,7 @@ const MovieDetail = () => {
 
     return (<>
             <div className="movie-section">
-                {Object.keys(data).length === 0 ? (<div><i className="fa fa-spinner fa-spin"></i></div>) : (<>
+                {Object.keys(data).length === 0 ? (<div className="loading-text"><i className="fa fa-spinner fa-spin"></i></div>) : (<>
                         <div className="section-left">
                             <Link to={"/"}><i className="fa fa-arrow-left"></i> Back</Link>
                             <div className="movie-title">{data.Title}</div>

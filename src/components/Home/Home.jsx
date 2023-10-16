@@ -7,8 +7,8 @@ const Home = () => {
 
     const dispatch = useDispatch();
     useEffect(() => {
-        dispatch(fetchAsyncMovies());
-        dispatch(fetchAsyncShows());
+        dispatch(fetchAsyncMovies("Harry"));
+        dispatch(fetchAsyncShows("Friends"));
     }, [dispatch]);
     return (
         <>
