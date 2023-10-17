@@ -19,4 +19,19 @@
   height: 38px;
 }
 
+.user-nickname {
+  color: #ffffff;
+  display: flex;
+  padding: 0 10px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.right-navbar {
+  display: flex;
+}
+
 /*# sourceMappingURL=Header.css.map */
