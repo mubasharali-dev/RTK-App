@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"PageNotFound.css"}
+{"version":3,"sourceRoot":"","sources":["PageNotFound.scss","../../common/colors.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;EACA;EACA,OCNa;;ADQb;EACE;;AAGF;EACE;EACA;EACA,OCbU;;ADgBZ;EACE","file":"PageNotFound.css"}

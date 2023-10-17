@@ -2,17 +2,38 @@
 
 .header {
   background-color: $secondary-color;
-  height: 72px;
-  padding: 0px 40px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
 
-.logo {
-  color: white !important;
-  font-size: 20px;
-  font-weight: 600;
+  .logo {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .right-navbar {
+    display: flex;
+    align-items: center;
+
+    button {
+      margin-left: 10px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    align-items: center;
+
+    .logo {
+      margin-bottom: 10px;
+    }
+
+    .right-navbar {
+      margin-top: 10px;
+    }
+  }
 }
 
 .user-image,
@@ -20,15 +41,14 @@
   width: 38px;
   height: 38px;
 }
+
 .user-nickname {
   color: $font-primary;
   display: flex;
   padding: 0 10px;
 }
+
 .user-profile {
   display: flex;
   align-items: center;
-}
-.right-navbar {
-  display: flex;
 }

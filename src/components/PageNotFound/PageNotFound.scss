@@ -1,0 +1,24 @@
+@import "../../common/colors.scss";
+
+.page-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: $font-primary;
+
+  button {
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: $font-danger;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}

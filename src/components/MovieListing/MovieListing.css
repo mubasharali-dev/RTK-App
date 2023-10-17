@@ -1,5 +1,3 @@
-@import "../../common/colors.scss";
-
 .movie-list,
 .show-list {
   margin: 20px 0px;
@@ -17,7 +15,7 @@
   grid-gap: 15px;
 }
 
-.movie-heading , .show-heading{
+.movie-heading, .show-heading {
   color: #ffffff;
   font-size: 32px;
   font-weight: 500;
@@ -25,24 +23,6 @@
   display: flex;
   justify-content: center;
   padding: 1em 0;
-  color: primary-color;
 }
-
-.loader-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* Adjust as needed */
-}
-
-.loading-text {
-  text-align: center;
-  font-size: 24px; /* Adjust the font size as needed */
-  font-weight: bold; /* Adjust the font weight as needed */
-  color: white;
-
-  padding: 200px;
-}
-
 
 /*# sourceMappingURL=MovieListing.css.map */

@@ -1,16 +1,33 @@
 .header {
   background-color: #1a242f;
-  height: 72px;
-  padding: 0px 40px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-.logo {
-  color: white !important;
+.header .logo {
+  color: white;
   font-size: 20px;
   font-weight: 600;
+}
+.header .right-navbar {
+  display: flex;
+  align-items: center;
+}
+.header .right-navbar button {
+  margin-left: 10px;
+}
+@media (max-width: 500px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header .logo {
+    margin-bottom: 10px;
+  }
+  .header .right-navbar {
+    margin-top: 10px;
+  }
 }
 
 .user-image,
@@ -28,10 +45,6 @@
 .user-profile {
   display: flex;
   align-items: center;
-}
-
-.right-navbar {
-  display: flex;
 }
 
 /*# sourceMappingURL=Header.css.map */
